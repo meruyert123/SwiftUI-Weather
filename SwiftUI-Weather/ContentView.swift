@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isNight = false
+    // new page one
+    
+    
     
     var mode = true
     var body: some View {
@@ -21,6 +24,7 @@ struct ContentView: View {
 //                    .border(.black)
                 MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill",
                                       temperature: 5)
+                // new page one
                 
                 HStack(spacing: 20) {
                     WeatherDayView(dayOfWeek: "TUE",
