@@ -11,7 +11,9 @@ struct ContentView: View {
     
     @State private var isNight = false
     // new page one
-    
+    /*
+     add
+     */
     
     
     var mode = true
